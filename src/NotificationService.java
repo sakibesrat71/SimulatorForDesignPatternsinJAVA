@@ -3,7 +3,7 @@ import java.util.List;
 
 public class NotificationService {
     String duckType;
-    public List<Listeners> listeners = new ArrayList<Listeners>();
+    public List<Listeners> listeners = new ArrayList<Listeners>(); 
 
     public void setDuckType(String duckType) {
         this.duckType = duckType;
